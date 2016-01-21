@@ -25,7 +25,6 @@ h1 {
 //BREADCRUMBS
 
 .breadcrumbs{
-  @include span-columns (12);
   background-color: #F8F7F7;
   padding-top:1em;
   padding-bottom: 1em; 
@@ -33,7 +32,7 @@ h1 {
   font-size: 15px;
 
   .tags{
-    @include span-columns (10);
+    @include span-columns (10 of 12);
     @include shift (1);
     color: #9B9B9B;
   }
@@ -57,8 +56,8 @@ h1 {
   margin-bottom: 3em;
   h1{
     padding-top: .5em;
-    font-weight: 300;
-    font-size: 2.2em;
+    font-weight: 100;
+    font-size: 2.5em;
   }
 
   h2{
